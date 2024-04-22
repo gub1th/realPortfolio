@@ -1,0 +1,30 @@
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+  
+  .sidebar {
+    border-style: solid;
+    border-color: red;
+  
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blue;
+  }
+  
+  hr {
+    border-color: gray;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }

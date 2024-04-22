@@ -1,0 +1,65 @@
+navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+    display: flex;
+  
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: pink;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(164, 164, 164);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    color: white;
+    background-color: rgb(57, 57, 57);
+    
+  }
+  
+  .nav-item:hover .nav-icon {
+    transform: rotate(-30deg);
+  }
+  
+  .nav-icon {
+    transition: transform 0.3s ease;
+    margin-left: 15px;
+  }
+  
+  .link-text {
+    margin-left: 10px;
+  }
+  
+  #sideProfileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  #sideProfileName {
+    margin-bottom: 0;
+  }
+  
+  #sideProfileHandle {
+    color: #808080;
+  }
+  
+  #trademark {
+    font-size: small;
+    color: #5b5b5b;
+  }
