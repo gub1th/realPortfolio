@@ -1,0 +1,40 @@
+.workTogetherCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+
+#contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#email-contact-button {
+    background-color: rgb(171, 11, 11);
+}
+
+#linkedin-contact-button {
+    background-color: rgb(42, 42, 233);
+}
+
+#github-contact-button {
+    background-color: black;
+}
+
+#instagram-contact-button {
+    background-color: rgb(233, 31, 169);
+}
+
+#contact-button-real-image {
+    width: 25px;
+}
+
+#workTogetherText {
+    margin-bottom: 0;
+}

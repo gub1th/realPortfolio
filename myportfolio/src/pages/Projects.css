@@ -1,0 +1,32 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.logo-image {
+    width: 30px;
+}
+
+.project-card-logos {
+    display: flex;
+    gap: 2%;
+    margin-top: 5px;
+}
+
+.project-card-name {
+    font-size: x-large;
+}
+
+.project-card-desc {
+    color: #a3a3a3;
+}

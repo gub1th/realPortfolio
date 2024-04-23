@@ -1,11 +1,9 @@
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
-import Contact from './pages/Contact';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
+import Experiences from './pages/Experiences';
 import Layout from './components/Layout';
 
 function App() {
@@ -18,7 +16,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="experiences" element={<Experiences />} />
             {/* Add more routes here */}
           </Route>
         </Routes>

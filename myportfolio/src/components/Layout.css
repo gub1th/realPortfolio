@@ -1,11 +1,3 @@
-
-
-.container {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-  }
-  
   .sidebar {
     border-style: solid;
     border-color: red;
@@ -13,6 +5,10 @@
     display: flex;
     flex-direction: column;
     min-width: 220px;
+
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
   }
   
   .content {
@@ -20,6 +16,7 @@
     flex-direction: column;
     border-style: solid;
     border-color: blue;
+    padding-left: 20px;
   }
   
   hr {

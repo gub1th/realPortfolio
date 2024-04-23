@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faHome, faFolderOpen, faStreetView } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 function Header() {
@@ -17,30 +17,30 @@ function Header() {
         <hr/>
         <nav className="navbar">
           <ul>
-            <Link to="/" className="nav-link">
-              <li className="nav-item">
-                  <div className="nav-icon"><FontAwesomeIcon icon={faUser} /></div>
-                  <div className="link-text">Home</div>
-              </li>
-            </Link>
-            <Link to="/about" className="nav-link">
-              <li className="nav-item">
-                  <div className="nav-icon"><FontAwesomeIcon icon={faUser} /></div>
-                  <div className="link-text">About</div>
-              </li>
-            </Link>
-            <Link to="/projects" className="nav-link">
-              <li className="nav-item">
-                  <div className="nav-icon"><FontAwesomeIcon icon={faUser} /></div>
-                  <div className="link-text">Projects</div>
-              </li>
-            </Link>
-            <Link to="/contact" className="nav-link">
-              <li className="nav-item">
-                  <div className="nav-icon"><FontAwesomeIcon icon={faUser} /></div>
-                  <div className="link-text">Contact</div>
-              </li>
-            </Link>
+            <li className="nav-item">
+              <NavLink exact to="/" className="nav-link">
+                <div className="nav-icon"><FontAwesomeIcon icon={faHome} /></div>
+                <div className="link-text">Home</div>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/about" className="nav-link">
+                <div className="nav-icon"><FontAwesomeIcon icon={faUser} /></div>
+                <div className="link-text">About</div>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/projects" className="nav-link">
+                <div className="nav-icon"><FontAwesomeIcon icon={faFolderOpen} /></div>
+                <div className="link-text">Projects</div>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/experiences" className="nav-link">
+                <div className="nav-icon"><FontAwesomeIcon icon={faStreetView} /></div>
+                <div className="link-text">Experiences</div>
+              </NavLink>
+            </li>
           </ul>
         </nav>
         <hr/>
