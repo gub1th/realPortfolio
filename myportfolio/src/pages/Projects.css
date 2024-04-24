@@ -5,6 +5,7 @@
     background-color: #1E1E1E;
     padding: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .project-content {
@@ -29,4 +30,8 @@
 
 .project-card-desc {
     color: #a3a3a3;
+}
+
+#project-hr {
+    margin-bottom: 21px;
 }

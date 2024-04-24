@@ -1,6 +1,7 @@
 .container {
-    padding: 20px;
     display: flex;
     flex-direction: row;
     background-color: black;
+    min-height: 100vh;
+    width: 100vw;
 }

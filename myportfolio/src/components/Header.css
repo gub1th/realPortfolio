@@ -11,6 +11,7 @@ navbar {
     text-decoration: none;
     display: flex;
     color: rgb(164, 164, 164);
+    align-items: center;
   }
   
   .nav-item {
@@ -18,11 +19,11 @@ navbar {
   
     width: 100%;
     border-radius: 10px;
-    border-style: solid;
-    border-color: pink;
+    /* border-style: solid;
+    border-color: pink; */
     padding-top: 5px;
     padding-bottom: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, scale 0.4s ease;
   }
   
   .nav-item:hover,
@@ -35,6 +36,10 @@ navbar {
   .nav-item:hover .nav-icon,
   .nav-link.active .nav-icon {
     transform: rotate(-20deg);
+  }
+
+  .nav-item:hover {
+    scale: 1.03;
   }
   
   

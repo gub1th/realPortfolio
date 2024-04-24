@@ -1,6 +1,6 @@
   .sidebar {
-    border-style: solid;
-    border-color: red;
+    /* border-style: solid; */
+    /* border-color: red; */
   
     display: flex;
     flex-direction: column;
@@ -9,14 +9,20 @@
     position: sticky;
     top: 0;
     align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
   
   .content {
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-color: blue;
+    /* border-style: solid; */
+    /* border-color: blue; */
     padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
   
   hr {

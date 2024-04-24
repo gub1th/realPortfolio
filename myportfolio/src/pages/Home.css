@@ -7,6 +7,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 15px;
+    width: 60%;
 }
 
 #contact-content {
@@ -28,7 +29,7 @@
 }
 
 #instagram-contact-button {
-    background-color: rgb(233, 31, 169);
+    background-color: rgb(243, 24, 115);
 }
 
 #contact-button-real-image {
@@ -37,4 +38,16 @@
 
 #workTogetherText {
     margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cmu-text {
+    color:rgb(171, 11, 11);
+}
+
+#is-text, #cs-text {
+    color:rgb(158, 158, 158);
 }

@@ -7,7 +7,7 @@ import SkillsScrollableCard from '../components/SkillsScrollableCard';
 
 function About () {
 
-    const [selectedFilter, setSelectedFilter] = useState("frontend");
+    const [selectedFilter, setSelectedFilter] = useState("language");
 
     const handleFilterClick = (filter) => {
         if (filter === selectedFilter) {
@@ -18,14 +18,31 @@ function About () {
     };
 
     const skills = [
-        { name: 'HTML', category: 'frontend', iconUrl: "logo192.png" },
-        { name: 'CSS', category: 'frontend', iconUrl: "logo192.png" },
-        { name: 'JavaScript', category: 'frontend', iconUrl: "logo192.png" },
-        { name: 'React', category: 'frontend', iconUrl: "logo192.png" },
-        { name: 'Node.js', category: 'backend', iconUrl: "logo192.png" },
-        { name: 'Python', category: 'backend', iconUrl: "logo192.png" },
-        { name: 'MySQL', category: 'database', iconUrl: "logo192.png" },
-        { name: 'MongoDB', category: 'database', iconUrl: "logo192.png" },
+        { name: 'Python', category: 'language', iconUrl: "python.png" },
+        { name: 'C', category: 'language', iconUrl: "letter-c.png" },
+        { name: 'SQL', category: 'language', iconUrl: "database.png" },
+        { name: 'Java', category: 'language', iconUrl: "java.png" },
+        { name: 'Javascript', category: 'language', iconUrl: "js.png" },
+        { name: 'Swift', category: 'language', iconUrl: "swift.png" },
+        { name: 'HTML', category: 'language', iconUrl: "html-5.png" },
+        { name: 'CSS', category: 'language', iconUrl: "css-3.png" },
+        { name: 'SML', category: 'language', iconUrl: "smlnj.png" },
+        { name: 'Ruby', category: 'language', iconUrl: "ruby.png" },
+        { name: 'C#', category: 'language', iconUrl: "c-sharp.png" },
+        { name: 'Assembly', category: 'language', iconUrl: "asm.png" },
+        { name: 'R', category: 'language', iconUrl: "r.png" },
+        { name: 'Node', category: 'technology', iconUrl: "node-js.png" },
+        { name: 'Express', category: 'technology', iconUrl: "express.png" },
+        { name: 'Django', category: 'technology', iconUrl: "django.png" },
+        { name: 'React', category: 'technology', iconUrl: "react.png" },
+        { name: 'MongoDB', category: 'technology', iconUrl: "mongo.png" },
+        { name: 'PostgreSQL', category: 'technology', iconUrl: "postgres.png" },
+        { name: 'MySQL', category: 'technology', iconUrl: "mysql.png" },
+        { name: 'Firebase', category: 'technology', iconUrl: "firebase.png" },
+        { name: 'Git', category: 'technology', iconUrl: "git.png" },
+        {name: 'Docker', category: 'technology', iconUrl: "docker.png" },
+        { name: 'Jest', category: 'technology', iconUrl: "jest.png" },
+        { name: 'Unity', category: 'technology', iconUrl: "unity.png" }
     ];
 
     const filteredSkills = skills.filter((skill) => skill.category === selectedFilter);
@@ -53,9 +70,8 @@ function About () {
                 </div>
                 <div className="skills-content">
                     <div className="skills-filter">
-                        <SkillsFilterButton name="frontend" handleFilterClick={handleFilterClick} currFilter={selectedFilter}/>
-                        <SkillsFilterButton name="backend" handleFilterClick={handleFilterClick} currFilter={selectedFilter}/>
-                        <SkillsFilterButton name="database" handleFilterClick={handleFilterClick} currFilter={selectedFilter}/>
+                        <SkillsFilterButton name="languages" handleFilterClick={handleFilterClick} currFilter={selectedFilter}/>
+                        <SkillsFilterButton name="technologies" handleFilterClick={handleFilterClick} currFilter={selectedFilter}/>
                     </div>
                     <div className="skills-scrollable-list">
                         {filteredSkills.map((skill, index) => (
@@ -71,18 +87,18 @@ function About () {
                 </div>
                 <div class="career-content">
                     <CareerCard role="Software Engineer Intern" content="Atlassian • New York City, NY" timeframe="May 2023 - Aug 2023" timeframelength="3 months" imageUrl="atlassian.png"/>
-                    <CareerCard role="AI Research Intern" content="Comcast Labs • Sunnyvale, CA" timeframe="May 2022 - Aug 2022" timeframelength="3 months" imageUrl="logo192.png"/>
+                    <CareerCard role="AI Research Intern" content="Comcast Labs • Sunnyvale, CA" timeframe="May 2022 - Aug 2022" timeframelength="3 months" imageUrl="comcast.png"/>
                 </div>
                 <div class="career-content">
-                    <CareerCard role="Software Engineer Intern" content="Atlassian • New York City, NY" timeframe="May 2023 - Aug 2023" timeframelength="3 months" imageUrl="atlassian.png"/>
-                    <CareerCard role="AI Research Intern" content="Comcast Labs • Sunnyvale, CA" timeframe="May 2022 - Aug 2022" timeframelength="3 months" imageUrl="logo192.png"/>
+                    <CareerCard role="CS Teaching Assistant" content="Carnegie Mellon University • Pittsburgh, PA" timeframe="Aug 2022 - May 2024" timeframelength="~2 years" imageUrl="cmu-seal.png"/>
+                    <CareerCard role="Research Assistant for High Frequency Trader" content="Comcast Labs • Sunnyvale, CA" timeframe="Jul 2022 - Feb 2022" timeframelength="~1.5 years" imageUrl="gpc.jpeg"/>
                 </div>
-                <hr></hr>
+                <hr id="career-hr"></hr>
                 <h3>Education</h3>
                 <div class="subtitle">
                     My educational journey.
                 </div>
-                <EducationCard school="Carnegie Mellon University" content="Bachelor of Science in Information Systems • Minor in Computer Science" timeframe="2020 - 2024" imageUrl="logo192.png"/>
+                <EducationCard school="Carnegie Mellon University" content="Bachelor of Science in Information Systems • Minor in Computer Science" timeframe="2020 - 2024" imageUrl="cmu-seal.png"/>
                 <EducationCard school="Beacon Academy" content="IB • Math, Physics, Bahasa Indonesia HL • Computer Science, Business, English SL" timeframe="2020 - 2024" imageUrl="logo192.png"/>
             </div>
 

@@ -58,6 +58,7 @@
 
 .skills-scrollable-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 1%;
 }
 
@@ -75,6 +76,7 @@
 
 .skills-logo-image {
     width: 25px;
+    margin-right: 10px;
 }
 
 .skills-filter {
@@ -104,4 +106,28 @@
 .active {
     background-color: #a3a3a3;
     color: #1E1E1E;
+}
+
+#career-hr {
+    margin-top: 15px;
+}
+
+.skills-scrollable-card:hover {
+    animation: nudge .4s linear;
+  }
+
+
+@keyframes nudge {
+  
+  0% {
+    transform: rotate(-7deg);
+  }
+  
+  33% {
+    transform: rotate(7deg);
+  }
+  
+  66% {
+    transform: rotate(-7deg);
+  }
 }
