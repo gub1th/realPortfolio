@@ -46,6 +46,7 @@ code {
   border: none;
   gap: 10px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
  h1 {

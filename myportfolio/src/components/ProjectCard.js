@@ -1,8 +1,24 @@
-const ProjectCard = ({ name, desc, imageUrl, logoUrls }) => {
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+const ProjectCard = ({ name, desc, imageUrl, logoUrls, githubUrl="#", otherUrl="#" }) => {
     return (
         <div className="project-card">
             <div className="project-card-image">
                 <img className="main-image" src={process.env.PUBLIC_URL + '/images/' + imageUrl} alt="Logo" />
+                <div className="overlay">
+                    <div className="overlay-content">
+                        {otherUrl !== "#" && (
+                            <a href={otherUrl} className="overlay-icon" title="View App">
+                                <i className="fas fa-eye"></i>
+                            </a>
+                        )}
+                        {githubUrl !== "#" && (
+                            <a href={githubUrl} className="overlay-icon" title="GitHub">
+                                <i className="fab fa-github"></i>
+                            </a>
+                        )}
+                    </div>
+                </div>
             </div>
             <div className="project-card-content">
                 <div className="poppins-medium project-card-name">

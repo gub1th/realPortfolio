@@ -20,8 +20,8 @@ function Home () {
             </div>
             <hr />
             <p>
-                I'm a senior at <span id="cmu-text" className="poppins-bold">Carnegie Mellon</span>&nbsp; 
-                studying <span id="is-text" className="poppins-medium">Information Systems</span> and <span id="cs-text"className="poppins-medium">CS</span>. 
+                I'm a software engineer at <span id="atlassian-text" className="poppins-bold">Atlassian</span>. I recently graduated from <span id="cmu-text" className="poppins-bold">Carnegie Mellon</span> 
+                , where I studied <span id="is-text" className="poppins-medium">Information Systems</span> and <span id="cs-text"className="poppins-medium">CS</span>. 
                 I've always been more of a backend developer, but I'm currently exploring full-stack and it's been pretty fun!
                 I'm always curious about tech and business, and love learning about and building new things.
             </p>
@@ -31,7 +31,7 @@ function Home () {
                     I'm constantly seeking software opportunities to learn and grow from.
                     Feel free to email me to see how I can contribute.
                 </p>
-                <div id="contact-content">
+                <div id="contact-content" className="responsive-contact-buttons">
                     <ContactButton id="email-contact-button" text="email" iconUrl="gmail.png" link="thisdoesntmatter" onClick={handleEmailClick}/>
                     <ContactButton id="linkedin-contact-button" text="linkedin" iconUrl="linkedin.png" link="https://www.linkedin.com/in/danielfgunawan/"/>
                     <ContactButton id="github-contact-button" text="github" iconUrl="github2.png" link="https://github.com/gub1th"/>

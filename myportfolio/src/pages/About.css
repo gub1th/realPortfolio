@@ -51,6 +51,11 @@
     color: #d4d1d1;
 }
 
+#view-resume-button:hover {
+    background-color: #333;
+    color: rgb(248, 248, 200);
+}
+
 .subtitle {
     margin-top: 0px;
     color: #a3a3a3;

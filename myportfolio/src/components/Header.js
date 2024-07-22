@@ -7,7 +7,9 @@ import './Header.css';
 function Header() {
     return (
         <header className="sidebar">
-        <img id="sideProfileImage" src={process.env.PUBLIC_URL + '/images/profileImage.png'} alt="Logo" />
+          <a href="/">
+            <img id="sideProfileImage" src={process.env.PUBLIC_URL + '/images/profileImage.png'} alt="Logo" />
+          </a>
         <div>
           <h2 id="sideProfileName" className="poppins-medium">Daniel Gunawan</h2>
         </div>
@@ -18,7 +20,7 @@ function Header() {
         <nav className="navbar">
           <ul>
             <li className="nav-item">
-              <NavLink exact to="/" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 <div className="nav-icon"><FontAwesomeIcon icon={faHome} /></div>
                 <div className="link-text">Home</div>
               </NavLink>

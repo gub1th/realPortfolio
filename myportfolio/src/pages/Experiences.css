@@ -1,11 +1,14 @@
-.experiences-content {
+  .experiences-content {
+    padding-block: 1rem;
     display: flex;
     flex-direction: column;
-}
+    gap: 1rem;
+  }
 
 .experience-card {
     display: flex;
     flex-direction: row;
+    gap: 2%;
     border-radius: 10px;
     background-color: #1E1E1E;
     margin-top: 15px;
@@ -14,4 +17,11 @@
 
 .experience-card-title {
     font-size: x-large;
+}
+
+.experience-card-real-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+
 }
