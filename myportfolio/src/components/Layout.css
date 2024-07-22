@@ -1,0 +1,33 @@
+  .sidebar {
+    /* border-style: solid; */
+    /* border-color: red; */
+  
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid; */
+    /* border-color: blue; */
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border-color: gray;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }

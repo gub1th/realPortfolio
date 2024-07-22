@@ -1,0 +1,138 @@
+.about-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    padding: 15px;
+    margin-top: 15px;
+    align-items: stretch;
+}
+
+.about-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+#education-card-real-image, #career-card-real-image {
+    width: 50px;
+}
+
+.about-card-content-text, .about-card-timeframe-text {
+    color: #a3a3a3;
+}
+
+.about-card-timeframelength-text {
+    color: #646464;
+}
+
+.career-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+#career-card, #education-card {
+    flex: 1;
+}
+
+#view-resume-button {
+    width: 180px;
+    justify-content: center;
+    font-size: medium;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #d4d1d1;
+}
+
+#view-resume-button:hover {
+    background-color: #333;
+    color: rgb(248, 248, 200);
+}
+
+.subtitle {
+    margin-top: 0px;
+    color: #a3a3a3;
+}
+
+.skills-scrollable-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.skills-scrollable-card {
+    display: flex;
+    /* flex: 0 0 auto; */
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.skills-logo-image {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.skills-filter {
+    display: flex;
+    gap: 1%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.skills-filter-button {
+    background-color: #525252;
+    color: #d4d1d1;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skills-filter-button:hover {
+    background-color: #a3a3a3;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #a3a3a3;
+    color: #1E1E1E;
+}
+
+#career-hr {
+    margin-top: 15px;
+}
+
+.skills-scrollable-card:hover {
+    animation: nudge .4s linear;
+  }
+
+
+@keyframes nudge {
+  
+  0% {
+    transform: rotate(-7deg);
+  }
+  
+  33% {
+    transform: rotate(7deg);
+  }
+  
+  66% {
+    transform: rotate(-7deg);
+  }
+}
