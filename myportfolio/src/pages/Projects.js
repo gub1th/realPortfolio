@@ -28,7 +28,7 @@ function Projects () {
                     <ProjectCard name="GoWeather" desc="An app that conveniently provides the weather news." imageUrl="goweatherlogo.png" logoUrls={["python.png"]} githubUrl='https://github.com/gub1th/goWeather'/>
                 </div>
                 <div className="project-content">
-                    <ProjectCard name="Website V2" desc="The website you're viewing right now." imageUrl="websitev2.png" logoUrls={["js.png", "react.png"]} githubUrl='https://github.com/gub1th/portfolio2' />
+                    <ProjectCard name="Website V2" desc="The website you're viewing right now." imageUrl="websitev2.png" logoUrls={["js.png", "react.png"]} githubUrl='https://github.com/gub1th/portfolio2' otherUrl='https://gub1th.github.io/realPortfolio/'/>
                     <ProjectCard name="Website V1" desc="The original portfolio website I made." imageUrl="websitev1.jpeg" logoUrls={["html-5.png", "css-3.png", "js.png"]} githubUrl='https://github.com/gub1th/portfolio_Website' otherUrl='https://gub1th.github.io/portfolio_Website/'/>
                 </div>
                 <div className="project-content">
