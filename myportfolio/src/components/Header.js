@@ -7,7 +7,7 @@ import './Header.css';
 function Header() {
     return (
         <header className="sidebar">
-          <a href="/">
+          <a href="/realPortfolio">
             <img id="sideProfileImage" src={process.env.PUBLIC_URL + '/images/profileImage.png'} alt="Logo" />
           </a>
         <div>
@@ -20,25 +20,25 @@ function Header() {
         <nav className="navbar">
           <ul>
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/realPortfolio" className="nav-link">
                 <div className="nav-icon"><FontAwesomeIcon icon={faHome} /></div>
                 <div className="link-text">Home</div>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/about" className="nav-link">
+              <NavLink to="/realPortfolio/about" className="nav-link">
                 <div className="nav-icon"><FontAwesomeIcon icon={faUser} /></div>
                 <div className="link-text">About</div>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/projects" className="nav-link">
+              <NavLink to="/realPortfolio/projects" className="nav-link">
                 <div className="nav-icon"><FontAwesomeIcon icon={faFolderOpen} /></div>
                 <div className="link-text">Projects</div>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/experiences" className="nav-link">
+              <NavLink to="/realPortfolio/experiences" className="nav-link">
                 <div className="nav-icon"><FontAwesomeIcon icon={faStreetView} /></div>
                 <div className="link-text">Experiences</div>
               </NavLink>

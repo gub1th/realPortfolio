@@ -12,7 +12,7 @@ function App() {
       <Router>
         <div className="container">
         <Routes>
-          <Route path="/" element={<Layout />}> {/* Wrap the main components in Layout */}
+          <Route path="/realPortfolio" element={<Layout />}> {/* Wrap the main components in Layout */}
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="projects" element={<Projects />} />
