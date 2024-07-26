@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/realPortfolio/static/css/main.0e876d38.css",
-    "main.js": "/realPortfolio/static/js/main.5c6e4380.js",
+    "main.css": "/realPortfolio/static/css/main.685f1204.css",
+    "main.js": "/realPortfolio/static/js/main.04a4d068.js",
     "static/media/fa-solid-900.ttf": "/realPortfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/realPortfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/realPortfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/realPortfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/realPortfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/realPortfolio/index.html",
-    "main.0e876d38.css.map": "/realPortfolio/static/css/main.0e876d38.css.map",
-    "main.5c6e4380.js.map": "/realPortfolio/static/js/main.5c6e4380.js.map"
+    "main.685f1204.css.map": "/realPortfolio/static/css/main.685f1204.css.map",
+    "main.04a4d068.js.map": "/realPortfolio/static/js/main.04a4d068.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e876d38.css",
-    "static/js/main.5c6e4380.js"
+    "static/css/main.685f1204.css",
+    "static/js/main.04a4d068.js"
   ]
 }
