@@ -61,9 +61,17 @@ function About () {
                 </div>
                 <hr></hr>
                 <p>
-                My name is daniel gunawan. i grew up somewhere and here and there and what i have been working on is 
-                web experiences. I work with JavaScript and specialize in all-things web. I thrive on 
-                collaborating with teams to deliver efficient, scalable, and visually appealing web applications.
+                    Hi there, and welcome to the website. I'm not sure what to put here, so here are some things about me.
+                    <div id="fact-box">
+                        ‣ i enjoy ideating about cool products to build, and learning about new technologies.
+                        <br />
+                        ‣ i enjoy playing and watching tennis and basketball.
+                        <br />
+                        ‣ i enjoy freestyle rapping sometimes. i was a teaching assistant last year!
+                        <br />
+                        ‣ i wish i had a dog.
+                    </div>
+                
                 </p>
                 <button className="general-button poppins-medium" id="view-resume-button" onClick={handleViewResumeClick}>
                     View Resume

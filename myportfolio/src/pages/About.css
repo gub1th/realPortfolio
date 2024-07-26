@@ -136,3 +136,11 @@
     transform: rotate(-7deg);
   }
 }
+
+#fact-box {
+    border-radius: 10px;
+    background-color: rgb(39, 44, 39);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(197, 197, 197);
+}
