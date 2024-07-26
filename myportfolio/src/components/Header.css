@@ -59,6 +59,10 @@ navbar {
     border-radius: 50%;
     object-fit: cover;
   }
+
+  #sideProfileImage:hover {
+    animation: nudge .4s linear;
+  }
   
   #sideProfileName {
     margin-bottom: 0;
@@ -71,4 +75,15 @@ navbar {
   #trademark {
     font-size: small;
     color: #5b5b5b;
+  }
+
+  #profileLink {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
   }

@@ -7,7 +7,7 @@ import './Header.css';
 function Header() {
     return (
         <header className="sidebar">
-          <a href="/realPortfolio">
+          <a id="profileLink" href="/realPortfolio">
             <img id="sideProfileImage" src={process.env.PUBLIC_URL + '/images/profileImage.png'} alt="Logo" />
           </a>
         <div>
