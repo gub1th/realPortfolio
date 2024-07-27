@@ -16,7 +16,7 @@ function Home () {
         <div className="content">
             <h1>Hi, I'm Daniel</h1>
             <div className="subtitle">
-                Currently in Pittsburgh, PA
+                Currently in San Francisco, CA
             </div>
             <hr />
             <p>
